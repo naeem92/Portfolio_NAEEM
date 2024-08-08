@@ -237,6 +237,7 @@ h1 {
 .container .about .about-1 {
     display: flex;
     align-items: center;
+    text-align: justify;
 }
 
 .container .about .about-1 img {
