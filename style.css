@@ -303,6 +303,11 @@ h1 {
 .gl-2 img{
     width: 100%;
 }
+/* video {
+    width: 500px;
+    aspect-ratio: auto 500 / 280;
+    height: 280px;
+} */
 /* ------------------Gallery Right---------------------------- */
 .container .gallery .gallery-right {
     width: 50%;
@@ -671,6 +676,12 @@ h1 {
         height: 2px;
         background-image: linear-gradient(to right, rgb(17, 2, 2), rgb(255, 255, 255));
     }
+    video {
+        margin-top: -90px;
+        width: 400px;
+        aspect-ratio: auto 500 / 280;
+        height: 230px;
+    }
 }
 
 /* -----------------------------------max-width:1024px Ended----------------------------------------- */
@@ -734,6 +745,12 @@ h1 {
 
     .container .achievement .achieve-mar .worktxt {
         font-size: larger;
+    }
+    video {
+        margin-top: -90px;
+        width: 370px;
+        aspect-ratio: auto 500 / 280;
+        height: 210px;
     }
 
 }
@@ -878,6 +895,12 @@ h1 {
 
     .container .footer h1 {
         font-size: small;
+    }
+    video {
+        margin-top: -90px;
+        width: 300px;
+        aspect-ratio: auto 500 / 280;
+        height: 180px;
     }
 
 
@@ -1037,6 +1060,12 @@ h1 {
     .container .gallery .gallery-right {
         width: 100%;
     }
+    video {
+        margin-top: -90px;
+        width: 450px;
+        aspect-ratio: auto 500 / 280;
+        height: 250px;
+    }
 
 }
 
@@ -1100,14 +1129,23 @@ h1 {
     #hero .hero-container .left {
         margin-left: 10px;
     }
+    video {
+        margin-top: -90px;
+        width: 340px;
+        aspect-ratio: auto 500 / 280;
+        height: 200px;
+    }
 }
 
-/* @media (max-width:320px) {
-    .container .nav {
-        background-color: #7ecf0b;
+@media (max-width:376px) {
+    video {
+        margin-top: -90px;
+        width: 300px;
+        /* aspect-ratio: auto 500 / 280; */
+        height: 175px;
     }
    
-} */
+}
 
 /* ------------------------------------------------------------------- */
 
