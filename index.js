@@ -35,32 +35,32 @@ window.addEventListener('scroll', function () {
     up.classList.toggle('sticky', window.scrollY > 500);
 })
 
-//      ===========   amination Work Experience     ===========
-document.addEventListener('DOMContentLoaded', function () {
-    let counterElement = document.getElementById('counter');
-    let count = -9;
-    const stopAt = 6;
-    let observer;
+// //      ===========   amination Work Experience     ===========
+// document.addEventListener('DOMContentLoaded', function () {
+//     let counterElement = document.getElementById('counter');
+//     let count = -9;
+//     const stopAt = 6;
+//     let observer;
 
-    function updateCounter() {
-        if (count < stopAt) {
-            count++;
-            counterElement.textContent = count;
-            counterElement.classList.add('animate');
-            setTimeout(() => counterElement.classList.remove('animate'), 1000); // Animation duration
-            setTimeout(updateCounter, 100); // Update interval
-        }
-    }
+//     function updateCounter() {
+//         if (count < stopAt) {
+//             count++;
+//             counterElement.textContent = count;
+//             counterElement.classList.add('animate');
+//             setTimeout(() => counterElement.classList.remove('animate'), 1000); // Animation duration
+//             setTimeout(updateCounter, 100); // Update interval
+//         }
+//     }
 
-    function onIntersection(entries, observer) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                updateCounter();
-                observer.unobserve(entry.target); // Stop observing after starting the animation
-            }
-        });
-    }
+//     function onIntersection(entries, observer) {
+//         entries.forEach(entry => {
+//             if (entry.isIntersecting) {
+//                 updateCounter();
+//                 observer.unobserve(entry.target); // Stop observing after starting the animation
+//             }
+//         });
+//     }
 
-    observer = new IntersectionObserver(onIntersection, { threshold: 0.5 });
-    observer.observe(counterElement);
-});
+//     observer = new IntersectionObserver(onIntersection, { threshold: 0.5 });
+//     observer.observe(counterElement);
+// });

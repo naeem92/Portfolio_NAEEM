@@ -63,8 +63,8 @@ h1 {
 }
 
 .adv {
-    margin-top: 200px;
-    padding-bottom: 50px;
+    margin-top: 100px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
@@ -98,7 +98,22 @@ h1 {
     list-style: none;
     display: inline-block;
 }
-
+.application{
+    font-size: 40px;
+    line-height: 42px;
+    font-weight:bold;
+    margin: 30px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+p.discription{
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #ababab;
+}
+p.frontend-developer{
+    color:rgb(255, 233, 66);
+}
 /* -------------------------------------Hero Section----------------------------------------- */
 
 
@@ -109,7 +124,7 @@ h1 {
 .social {
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    margin: 40px -20px;
     padding-left: 20px;
 }
 
@@ -145,7 +160,7 @@ h1 {
 }
 
 #hero .hero-container .left .left-1 p {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 #hero .hero-container .left .left-1 h2 {
@@ -161,12 +176,13 @@ h1 {
 
 /* ---------------------------------Timeline Period/After Hero---------------------------------------- */
 .after-hero {
-    margin-top: -20px;
+    margin-top: 70px;
 
 }
 
 .after-hero>h1 {
     margin-bottom: 50px;
+
 }
 
 .after-hero .exp {
@@ -174,6 +190,7 @@ h1 {
     justify-content: space-between;
     border-bottom: 1px solid white;
     padding: 50px 0;
+    margin-bottom: 300px;
 }
 
 /* -----------------------------------------Advantages----------------------------------------- */
@@ -198,6 +215,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin-top: 40px;
 }
 
 .container .advantages .skills .skillres {
@@ -332,13 +350,13 @@ h1 {
 .pbutton {
     width: 100%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-bottom: 50px;
 }
 
 .pbutton a {
     border: 1px solid grey;
-    padding: 16px 60px;
+    padding: 10px 20px;
     transition: .5s ease;
     border-radius: 5px;
 }
@@ -347,6 +365,14 @@ h1 {
     background-color:  rgb(255, 233, 66);
     color: #111216;
     font-weight: 900;
+}
+p.biography{
+    margin-right: 20px;
+    color: #dcdcdc;
+    line-height: 25px;
+}
+p.Frontend-development{
+    color: #dcdcdc;
 }
 
 /* -----------------------------------Proud Stories------------------------------------ */
@@ -382,6 +408,11 @@ h1 {
     width: 60px;
     height: 2px;
     background-image: linear-gradient(to right, black, grey);
+}
+.img-area+.proud-story{
+    color:#dcdcdc;
+    font-size: 24px;
+    font-family: 'Montserrat';
 }
 
 /* --------------Testimonials------------------- */
@@ -1134,6 +1165,12 @@ h1 {
         width: 340px;
         aspect-ratio: auto 500 / 280;
         height: 200px;
+    }
+    p.biography{
+    text-align: justify;
+    }
+    .content {
+        margin-block: -50px;
     }
 }
 
