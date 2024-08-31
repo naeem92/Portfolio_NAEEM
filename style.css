@@ -28,12 +28,13 @@ a {
 }
 
 .sticky i {
-    color: orangered;
+    color: rgb(255, 233, 66);
     font-size: 40px;
     position: fixed;
     bottom: 10px;
     right: 10px;
     transition: .5s linear;
+    z-index: 999;
 }
 
 .container .nav .bx-menu {
@@ -84,7 +85,6 @@ h1 {
     line-height: 80px;
     background-color: #111216;
     z-index: 11;
-
 }
 
 .container .nav ul li a {
@@ -101,9 +101,10 @@ h1 {
 .application{
     font-size: 40px;
     line-height: 42px;
-    font-weight:bold;
-    margin: 30px 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat Bold', sans-serif;
 }
 p.discription{
     font-size: 14.5px;
@@ -124,8 +125,8 @@ p.frontend-developer{
 .social {
     display: flex;
     justify-content: space-between;
-    margin: 40px -20px;
-    padding-left: 20px;
+    margin: 40px -7px;
+    padding-left: 6px;
 }
 
 .social h5 {
@@ -149,6 +150,7 @@ p.frontend-developer{
 #hero .hero-container .right img {
     width: 100%;
     padding: 0 0 20px 20px;
+    filter: grayscale(100%);
 }
 
 #hero .hero-container .left .left-1 {
@@ -181,8 +183,12 @@ p.frontend-developer{
 }
 
 .after-hero>h1 {
-    margin-bottom: 50px;
-
+    margin-bottom: 10px;
+}
+.discription-experince{
+    color: rgb(255, 233, 66);
+    font-size:18px;
+    margin-bottom: 70px;
 }
 
 .after-hero .exp {
@@ -355,8 +361,9 @@ p.frontend-developer{
 }
 
 .pbutton a {
-    border: 1px solid grey;
-    padding: 10px 20px;
+    border: 1px solid rgb(255, 233, 66);
+    color: rgb(255, 233, 66);
+    padding: 10px 30px;
     transition: .5s ease;
     border-radius: 5px;
 }
@@ -366,6 +373,14 @@ p.frontend-developer{
     color: #111216;
     font-weight: 900;
 }
+.pbutton a .download-icon {
+    margin-left: 8px; 
+    transition: color .5s ease;
+}
+.pbutton a:hover, 
+.pbutton a:hover .download-icon {
+    color: #111216 !important;
+}
 p.biography{
     margin-right: 20px;
     color: #dcdcdc;
@@ -374,7 +389,11 @@ p.biography{
 p.Frontend-development{
     color: #dcdcdc;
 }
-
+.discription-para{
+    text-align: center;
+    color: rgb(255, 233, 66);
+    font-size:20px;
+}
 /* -----------------------------------Proud Stories------------------------------------ */
 
 .container .proud-stories {
@@ -1172,6 +1191,46 @@ p.Frontend-development{
     .content {
         margin-block: -50px;
     }
+    .application{
+        font-size: 30px;
+    }
+    p.discription{
+        font-size: 14.5px;
+        line-height: 25px;
+        margin-bottom: 20px;       
+    }    
+    .social span {
+        padding: 0 6px;
+        font-size:17px;
+    }
+    .discription-experince{
+        font-size:16px;
+        margin-bottom: 50px;
+    }
+    .discription-para{
+        font-size:16px;
+    }
+    .container .about .about-2 {
+        gap: 25px;
+        display: flex;
+        padding: 40px 0;
+        flex-direction: column;
+    }
+    .after-hero .exp {
+        margin-bottom: 150px;
+    }
+    .after-hero .exp h1 {
+        font-size: 9px;
+    }
+    .after-hero .exp h2 {
+        font-size: 9px;
+    }
+    .container .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 0;
+    }
 }
 
 @media (max-width:376px) {
@@ -1205,7 +1264,7 @@ p.Frontend-development{
 .gp1,
 .gp2 {
     width: 100%;
-    height: 250px;
+    height: 280px;
     background-color: #0060FF;
     max-height: 300px;
     background-size: cover;
@@ -1222,9 +1281,9 @@ p.Frontend-development{
     background-position: bottom;
 }
 
-.gp1 {
+/* .gp1 {
     background-image: url(proj1.png);
-}
+} */
 
 .gp2 {
     background-image: url(proj2.png);
@@ -1268,7 +1327,7 @@ p.Frontend-development{
     height: 2px;
     left: 0;
     bottom: -25px;
-    background-color: orangered;
+    background-color:rgb(255, 233, 66);
 
 }
 
