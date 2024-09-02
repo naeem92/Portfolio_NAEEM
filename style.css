@@ -107,13 +107,19 @@ h1 {
     font-family: 'Montserrat Bold', sans-serif;
 }
 p.discription{
-    font-size: 14.5px;
-    font-weight: 500;
-    line-height: 20px;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 23px;
     color: #ababab;
+    text-align: justify;
 }
 p.frontend-developer{
     color:rgb(255, 233, 66);
+}
+em.naeem-akram{
+    font-weight: 600;
+    color: #929292;
+    
 }
 /* -------------------------------------Hero Section----------------------------------------- */
 
@@ -184,6 +190,7 @@ p.frontend-developer{
 
 .after-hero>h1 {
     margin-bottom: 10px;
+    margin-left: -4px;
 }
 .discription-experince{
     color: rgb(255, 233, 66);
@@ -208,14 +215,7 @@ p.frontend-developer{
 .container .advantages img {
     width: 120px;
     height: 120px;
-    filter: grayscale(100%);
 }
-
-.container .advantages img:hover {
-    filter: grayscale(0);
-    cursor: pointer;
-}
-
 .container .advantages .skills {
     display: flex;
     justify-content: center;
@@ -268,6 +268,8 @@ p.frontend-developer{
     width: 250px;
     height: 350px;
     margin: 0 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 .container .about .about-2 {
@@ -538,7 +540,7 @@ p.Frontend-development{
 
 
 /* ------------------ACHIEVEMENT------------------------ */
-.container .achievement {
+/* .container .achievement {
     padding-bottom: 100px;
 }
 
@@ -573,7 +575,7 @@ p.Frontend-development{
 
 .ach-m {
     margin-top: 10px;
-}
+} */
 
 /* -----------------------Contact------------------------------------ */
 .container .contact {
@@ -1186,7 +1188,8 @@ p.Frontend-development{
         height: 200px;
     }
     p.biography{
-    text-align: justify;
+        font-size: 15.5px;
+        text-align: justify;
     }
     .content {
         margin-block: -50px;
@@ -1197,7 +1200,8 @@ p.Frontend-development{
     p.discription{
         font-size: 14.5px;
         line-height: 25px;
-        margin-bottom: 20px;       
+        margin-bottom: 20px;  
+        margin-right: 20px;     
     }    
     .social span {
         padding: 0 6px;
@@ -1208,7 +1212,7 @@ p.Frontend-development{
         margin-bottom: 50px;
     }
     .discription-para{
-        font-size:16px;
+        font-size:13.5px;
     }
     .container .about .about-2 {
         gap: 25px;
@@ -1231,6 +1235,54 @@ p.Frontend-development{
         gap: 10px;
         padding: 20px 0;
     }
+    .container .footer ul li a {
+        font-size: 10px;
+    }
+    
+    .container .footer h1 {
+        font-size:14px;
+    }
+    
+    .container .footer p {
+        font-size: 14px;
+    }
+    .small {
+        margin-top: 0px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .container .follow .follow-1 {
+        padding: 0px 12%;
+        font-size: 10px;
+    }
+    .container .follow {
+        padding: 70px 0;
+    }
+    
+    .container .follow .follow-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        font-size: 20px;
+    }
+    .bx1{
+        margin: 0px 22px;
+        font-size: 22px;
+       
+    }
+    .ff{
+     word-spacing: 2px;
+     letter-spacing: 5px;
+    }
+    .fotter-list li a{
+       font-size: 11.5px !important
+       
+    }
+    
 }
 
 @media (max-width:376px) {
